@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a1e2e5bb.css",
+    "main.js": "/static/js/main.a9d97850.js",
+    "static/js/787.9e54077f.chunk.js": "/static/js/787.9e54077f.chunk.js",
+    "static/media/Lexend-VariableFont_wght.ttf": "/static/media/Lexend-VariableFont_wght.ca595aeaae636593c5fe.ttf",
+    "static/media/Tropper-Sans-Serif-Italic.otf": "/static/media/Tropper-Sans-Serif-Italic.a006db16a313fad52bfa.otf",
+    "static/media/Inheritance.ttf": "/static/media/Inheritance.d17f4e02e546d884716d.ttf",
+    "static/media/WechatIMG439.jpeg": "/static/media/WechatIMG439.e4e8f7bf9acfed2f57f4.jpeg",
+    "static/media/logo.png": "/static/media/logo.e4e8f7bf9acfed2f57f4.png",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.a1e2e5bb.css.map": "/static/css/main.a1e2e5bb.css.map",
+    "main.a9d97850.js.map": "/static/js/main.a9d97850.js.map",
+    "787.9e54077f.chunk.js.map": "/static/js/787.9e54077f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1e2e5bb.css",
+    "static/js/main.a9d97850.js"
+  ]
+}
