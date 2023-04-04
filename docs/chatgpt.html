@@ -15,18 +15,55 @@
             background: #343541;
         }
         .chatgpt{
-            /*width: 100vw;*/
             height: 100vh;
             border: 0;
             width: 99%;
             margin: 0 auto;
         }
+
+        #weixinTip {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        #weixinTip img {
+            max-width: 80%;
+        }
+        .hidden {
+            display: none;
+        }
+        .block{
+            display: block;
+        }
     </style>
 </head>
 <body>
 
-<iframe src="https://chat.gpt.bz" class="chatgpt"></iframe>
+<iframe id="iframe" src="https://chat.gpt.bz" class="chatgpt hidden"></iframe>
+<!--<div id="iframe" class="chatgpt">asfasdfsdfasfsaf</div>-->
+<div id="weixinTip" class="">
+    <img src="https://s1.ax1x.com/2020/07/09/UmomPf.png" alt="微信打开"/>
+</div>
 
-
+<script>
+    function is_weixin() {
+        var ua = navigator.userAgent.toLowerCase();
+        if (ua.match(/MicroMessenger/i) == "micromessenger") {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    let box = document.getElementById("iframe")
+    let weixinTip = document.getElementById("weixinTip")
+    if (is_weixin()) {
+        weixinTip.style.display = "block"
+        box.style.display = "none"
+    } else {
+        weixinTip.style.display = "none"
+        box.style.display = "block"
+    }
+</script>
 </body>
 </html>
